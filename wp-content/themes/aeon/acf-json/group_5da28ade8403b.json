@@ -1,0 +1,124 @@
+{
+    "key": "group_5da28ade8403b",
+    "title": "Color Header",
+    "fields": [
+        {
+            "key": "field_5da28ae4ba0f9",
+            "label": "Color Header",
+            "name": "color_header",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5da28aefba0fa",
+                    "label": "Background",
+                    "name": "background",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": ""
+                },
+                {
+                    "key": "field_5da28afaba0fb",
+                    "label": "Primary",
+                    "name": "primary",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": ""
+                },
+                {
+                    "key": "field_5da28b1aba0fc",
+                    "label": "Secondary",
+                    "name": "secondary",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "33.33",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": ""
+                },
+                {
+                    "key": "field_5da28b20ba0fd",
+                    "label": "Title",
+                    "name": "title",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5da28b25ba0fe",
+                    "label": "Description",
+                    "name": "description",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "maxlength": "",
+                    "rows": 4,
+                    "new_lines": "br"
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-fullwidth.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1583455469
+}

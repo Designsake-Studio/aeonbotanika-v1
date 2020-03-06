@@ -1,0 +1,200 @@
+{
+    "key": "group_5dd82cf78a157",
+    "title": "Events",
+    "fields": [
+        {
+            "key": "field_5dd83687d5198",
+            "label": "Tickets \/ RSVP",
+            "name": "tickets_rsvp",
+            "type": "group",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "layout": "block",
+            "sub_fields": [
+                {
+                    "key": "field_5dd8369cd5199",
+                    "label": "Ticket Link",
+                    "name": "ticket_link",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "70",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "http:\/\/",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5dd836a8d519a",
+                    "label": "Ticket CTA",
+                    "name": "ticket_cta",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "30",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5dd836d7d519b",
+            "label": "Sponsors Title",
+            "name": "sponsors_title",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5dd82cf78c706",
+            "label": "Sponsors",
+            "name": "event_sponsors",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "field_5dd82cf78d4cd",
+            "min": 0,
+            "max": 0,
+            "layout": "block",
+            "button_label": "Add Sponsor",
+            "sub_fields": [
+                {
+                    "key": "field_5dd82cf78d4cd",
+                    "label": "Title",
+                    "name": "title",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "60",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5dd8320ea96ec",
+                    "label": "Link",
+                    "name": "link",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "40",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "http:\/\/",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5dd82cf78d51e",
+                    "label": "Description",
+                    "name": "description",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "80",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "maxlength": "",
+                    "rows": 3,
+                    "new_lines": ""
+                },
+                {
+                    "key": "field_5dd82cf78d506",
+                    "label": "Image",
+                    "name": "image",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "20",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "preview_size": "medium",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "page-event.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1583455475
+}

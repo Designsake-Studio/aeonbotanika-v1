@@ -1,0 +1,185 @@
+{
+    "key": "group_5d9e3888cd849",
+    "title": "Team Members",
+    "fields": [
+        {
+            "key": "field_5d9e3890e3385",
+            "label": "Members",
+            "name": "members",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "field_5d9e38a0e3387",
+            "min": 0,
+            "max": 0,
+            "layout": "block",
+            "button_label": "Add Member",
+            "sub_fields": [
+                {
+                    "key": "field_5d9e38a0e3387",
+                    "label": "Name",
+                    "name": "name",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5d9e38a4e3388",
+                    "label": "Job Title",
+                    "name": "job_title",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5d9e38bde338a",
+                    "label": "Image",
+                    "name": "image",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "30",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "preview_size": "medium",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                },
+                {
+                    "key": "field_5d9e38ace3389",
+                    "label": "Description",
+                    "name": "description",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "70",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "maxlength": "",
+                    "rows": "",
+                    "new_lines": ""
+                }
+            ]
+        },
+        {
+            "key": "field_5da0e7f60dd9d",
+            "label": "Advisory",
+            "name": "advisory",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "field_5da0e7f60dd9e",
+            "min": 0,
+            "max": 0,
+            "layout": "block",
+            "button_label": "Add Member",
+            "sub_fields": [
+                {
+                    "key": "field_5da0e7f60dd9e",
+                    "label": "Name",
+                    "name": "name",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5da0e7f60dda1",
+                    "label": "Description",
+                    "name": "description",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "maxlength": "",
+                    "rows": "",
+                    "new_lines": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "13"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1583455491
+}

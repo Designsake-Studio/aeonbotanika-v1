@@ -1,0 +1,144 @@
+{
+    "key": "group_5da37f437413c",
+    "title": "Location Sections",
+    "fields": [
+        {
+            "key": "field_5da37f483ef91",
+            "label": "Location Features",
+            "name": "location_features",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "field_5da37f6b3ef94",
+            "min": 0,
+            "max": 0,
+            "layout": "block",
+            "button_label": "Add Feature",
+            "sub_fields": [
+                {
+                    "key": "field_5da37f6b3ef94",
+                    "label": "Title",
+                    "name": "title",
+                    "type": "text",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_5da3ae64b0c18",
+                    "label": "Background",
+                    "name": "background",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": ""
+                },
+                {
+                    "key": "field_5da3aeb376319",
+                    "label": "Primary",
+                    "name": "primary",
+                    "type": "color_picker",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "50",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": ""
+                },
+                {
+                    "key": "field_5da37f553ef92",
+                    "label": "Image",
+                    "name": "image",
+                    "type": "image",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "40",
+                        "class": "",
+                        "id": ""
+                    },
+                    "return_format": "url",
+                    "preview_size": "medium",
+                    "library": "all",
+                    "min_width": "",
+                    "min_height": "",
+                    "min_size": "",
+                    "max_width": "",
+                    "max_height": "",
+                    "max_size": "",
+                    "mime_types": ""
+                },
+                {
+                    "key": "field_5da37f603ef93",
+                    "label": "Description",
+                    "name": "description",
+                    "type": "textarea",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "60",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "maxlength": "",
+                    "rows": "",
+                    "new_lines": "br"
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "11"
+            }
+        ],
+        [
+            {
+                "param": "page",
+                "operator": "==",
+                "value": "2"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1583455484
+}
